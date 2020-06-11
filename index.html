@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+
+
+<head>
+
+    <meta charset="utf-8">
+    <title>Aprendendo JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+
+<body>
+    <div class="box">
+    <h1 class="tittle">Calcule seu IMC</h1>
+
+    <form method="POST" onsubmit=" return calcular()">
+        
+        <input type="text" placeholder="Digite seu Peso Ex: 60kg" class="peso" id="peso">
+        
+    
+        <input type="text" placeholder="Digite sua Altura Ex: 1.73m" class="altura" id="altura">
+
+        <input type="submit" value="Calcular"  class="button" >
+    
+    </form>
+
+    <div class="finalvalue">
+        <h1>Seu indíce é:</h1>
+        <span id="resultado">*</span>
+    </div>
+    
+</div>
+
+
+    <div class="tabela">
+        
+        
+        <h1>Tabela do IMC</h1>
+         <span>Muito abaixo do Peso (Menor que 17)</span>   
+
+         <span>Abaixo do Peso (Menor que 18,5)</span>
+            
+         <span>Peso normal    (Entre 18,5 a 24,99)</span>
+          
+         <span>Sobrepeso(Entre 25 a 29,99)</span>
+            
+         <span>Obesidade Grau I (Entre 30 a 34,9)</span>
+        
+         <span>Obesidade Grau II (Entre 35 a 39,9)</span>
+      
+         <span>Obesidade Grau III (Maior que 40)</span>
+         
+        
+
+
+    </div>
+
+
+    
+</body>
+
+
+</html>
+
+<script type="text/javascript" src="script.js"></script>
